@@ -1,3 +1,9 @@
+/* COLORS */
+:root {
+  --color-gray: #eee;  
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +15,30 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background-color: var(--color-gray);
+}
+
 /* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+
+}
+
+.header__logo {
+    width: 25rem;
+    height: 4rem;
+    margin-lef
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    font-size: 1.7rem;
+}
+
+.item-list {
+
+}

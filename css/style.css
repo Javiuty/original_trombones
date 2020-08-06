@@ -94,3 +94,44 @@ body {
     background-color: orange;
     transition: 1s;
 }
+
+/* BRAND */
+
+.brand {
+    padding: 9rem;
+}
+
+.brand__container {
+    margin: 0 auto;
+    width: 65%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.5%;
+    
+}
+
+.brand__icon {
+    width: 15%;
+    font-size: 1.7rem;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    
+}
+
+
+.brand__description {   
+    width: 85%;
+}
+
+.brand__description-h2 {
+    font-size: 2.5rem;
+    margin-bottom: .75%;
+}
+
+.brand__description-p {
+    font-size: 1.5rem;
+}

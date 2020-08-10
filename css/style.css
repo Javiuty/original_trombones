@@ -1,10 +1,11 @@
 /* COLORS */
 :root {
   --color-gray: #eee;  
+  --color-gray-dark: #ddd;
   --color-yellow: #f1c40f;
 }
 
-
+/* BASE */
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +19,17 @@ html {
 
 body {
     background-color: var(--color-gray);
+}
+
+/* GRID */
+.row-3 {
+    width: 68%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-column-gap: 5rem;
 }
 
 /* HEADER */
@@ -99,6 +111,7 @@ body {
 
 .brand {
     padding: 9rem;
+    padding-bottom: 2.5rem;
 }
 
 .brand__container {
@@ -135,3 +148,42 @@ body {
 .brand__description-p {
     font-size: 1.5rem;
 }
+
+/* VIDEO SECTION */
+
+.video {
+    padding-bottom: 5rem;
+}
+
+.video__youtube {   
+    display: flex;
+    margin: 0 auto;
+}
+
+/* CARDS SECTIONS */
+
+.cards__container {
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards__container-upper {   
+    width: 100%;
+    background-color: var(--color-gray-dark);
+    height: 17%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__title {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    
+}
+
+
